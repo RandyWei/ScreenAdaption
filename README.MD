@@ -19,8 +19,8 @@ allprojects {
 Step 2. Add the dependency
 ```groovy
 dependencies {
-	        implementation 'com.github.RandyWei:ScreenAdaption:Tag'
-	}
+    implementation 'com.github.RandyWei:ScreenAdaption:0.0.1'
+}
 ```
 
 ## 用法
