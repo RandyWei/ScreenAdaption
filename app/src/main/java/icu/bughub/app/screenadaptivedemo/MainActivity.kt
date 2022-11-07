@@ -32,7 +32,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ScreenAdaption(designSize = Size(750.0F, 1334.0F), sizeType = SizeType.DP) {
+                    ScreenAdaption(
+                        designSize = Size(750.0F, 1334.0F),
+                        sizeType = SizeType.DP
+                    ) {
                         Greeting("Android")
                     }
                 }
@@ -68,6 +71,7 @@ fun Greeting(name: String) {
                 Text(
                     text = "$it",
                     color = Color.Red,
+                    fontSize = 14.saSp,
                     textAlign = TextAlign.Center,
                     modifier = Modifier
                         .width(75.saDp)
